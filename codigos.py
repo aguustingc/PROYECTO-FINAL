@@ -67,8 +67,13 @@ conversionDic = {'D01':  1, "D02":  2, "D03":  3, "D04":  4, "D05":  5, "D06":  
                  "D25": 25, "D26": 26, "D27": 27, "D28": 28, "D29": 29, "D30": 30, "D31": 31}
 
 
-columnasFiltradas = ["ESTACION",
+columnasFiltradas = ["MUNICIPIO",
+                     "PROVINCIA",
+                     "ESTACION",
                      "MAGNITUD",
+                     "PUNTO_MUESTREO",
                      "ANO",
                      "MES"]
 
+
+columnasNecesarias = ['PROVINCIA', 'MUNICIPIO', 'ESTACION', 'PUNTO_MUESTREO', 'MAGNITUD', 'ANO', 'MES']
